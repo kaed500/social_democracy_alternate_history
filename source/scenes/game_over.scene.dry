@@ -296,6 +296,7 @@ go-to: eg_menu if started == 1; root.start_menu_2 if started == 0
 [? if game_achievement_einigkeit_und_recht : **Einigkeit und Recht** - reach the end of 1933 without a civil war on normal. ?]
 
 [? if game_achievement_einigkeit_und_recht_und_freiheit : **Einigkeit und Recht und Freiheit** - reach the end of 1933 without a civil war on hard. ?]
+\'/;'
 
 [? if game_achievement_schwarz_rot_gold : **Schwarz-Rot-Gold** - reach the end of 1933 without a civil war on historical mode. ?]
 
@@ -316,6 +317,16 @@ go-to: eg_menu if started == 1; root.start_menu_2 if started == 0
 [? if game_achievement_constitutional_coalition: **Verfassungskoalition** - form a "constitutional coalition". ?]
 
 [? if game_achievement_weimar_coalition: **Weimarer Koalition** - form a Weimar coalition. ?]
+
+[? if game_achievement_ddp_coalition: **Gelbe Koalition** -  Form a government with the DDP alone. ?]
+
+[? if game_achievement_right_coalition: **Graue koalition** - join a right wing coalition with Z, BVP, DVP and the DNVP. ?]
+
+[? if game_achievement_ddp_chancellor: **Duetsche demokratische Herrschaft** - have  Erich Koch-Weser in a compromise. ?]
+
+[? if game_achievement_deadlock: **Politischer Stillstand** - have 3 elections with no majority in a row. ?]
+
+[? if game_achievement_ddp_right_coalition: **Graue und gelbe Koalition** - form a government with the right wing and DDP.
 
 [? if game_achievement_majority_party: **Mehrheitspartei** - form an SPD-only majority government. ?]
 
