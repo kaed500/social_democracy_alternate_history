@@ -1,5 +1,5 @@
-
-(..5) hostile
+(..3) rival
+(3..5) hostile
 (5..15) frigid
 (15..30) cold
 (30..40) cool
